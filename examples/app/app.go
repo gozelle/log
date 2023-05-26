@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"strings"
 	"time"
-
-	"github.com/charmbracelet/log"
+	
+	"github.com/gozelle/log"
 )
 
 type cup int
@@ -26,7 +26,7 @@ func startOven(degree int) {
 func main() {
 	log.SetTimeFormat(time.Kitchen)
 	log.SetLevel(log.DebugLevel)
-
+	
 	var (
 		butter    = cup(1)
 		chocolate = cup(2)
@@ -35,7 +35,7 @@ func main() {
 		temp      = 375
 		bakeTime  = 10
 	)
-
+	
 	startOven(temp)
 	time.Sleep(time.Second)
 	log.Debug("Mixing ingredients", "ingredients",

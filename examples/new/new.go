@@ -2,8 +2,8 @@ package main
 
 import (
 	"os"
-
-	"github.com/charmbracelet/log"
+	
+	"github.com/gozelle/log"
 )
 
 func main() {

@@ -3,9 +3,9 @@ package main
 import (
 	"os"
 	"time"
-
+	
 	"github.com/charmbracelet/lipgloss"
-	"github.com/charmbracelet/log"
+	"github.com/gozelle/log"
 )
 
 func main() {

@@ -2,8 +2,8 @@ package main
 
 import (
 	"fmt"
-
-	"github.com/charmbracelet/log"
+	
+	"github.com/gozelle/log"
 )
 
 func main() {

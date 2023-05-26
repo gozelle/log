@@ -2,11 +2,11 @@ module examples
 
 go 1.17
 
-replace github.com/charmbracelet/log => ../
+replace github.com/gozelle/log => ../
 
 require (
 	github.com/charmbracelet/lipgloss v0.7.0
-	github.com/charmbracelet/log v0.0.0-00010101000000-000000000000
+	github.com/gozelle/log v0.0.0-00010101000000-000000000000
 )
 
 require (

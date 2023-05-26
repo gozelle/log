@@ -3,8 +3,8 @@ package main
 import (
 	"fmt"
 	"time"
-
-	"github.com/charmbracelet/log"
+	
+	"github.com/gozelle/log"
 )
 
 func main() {

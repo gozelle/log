@@ -7,11 +7,11 @@
       <img src="https://user-images.githubusercontent.com/25087/219742757-c8afe0d9-608a-4845-a555-ef59c0af9ebc.png" width="359" />
     </picture>
     <br>
-    <a href="https://github.com/charmbracelet/log/releases"><img src="https://img.shields.io/github/release/charmbracelet/log.svg" alt="Latest Release"></a>
-    <a href="https://pkg.go.dev/github.com/charmbracelet/log?tab=doc"><img src="https://godoc.org/github.com/golang/gddo?status.svg" alt="Go Docs"></a>
-    <a href="https://github.com/charmbracelet/log/actions"><img src="https://github.com/charmbracelet/log/workflows/build/badge.svg" alt="Build Status"></a>
+    <a href="https://github.com/gozelle/log/releases"><img src="https://img.shields.io/github/release/charmbracelet/log.svg" alt="Latest Release"></a>
+    <a href="https://pkg.go.dev/github.com/gozelle/log?tab=doc"><img src="https://godoc.org/github.com/golang/gddo?status.svg" alt="Go Docs"></a>
+    <a href="https://github.com/gozelle/log/actions"><img src="https://github.com/gozelle/log/workflows/build/badge.svg" alt="Build Status"></a>
     <a href="https://codecov.io/gh/charmbracelet/log"><img alt="Codecov branch" src="https://img.shields.io/codecov/c/github/charmbracelet/log/main.svg"></a>
-    <a href="https://goreportcard.com/report/github.com/charmbracelet/log"><img alt="Go Report Card" src="https://goreportcard.com/badge/github.com/charmbracelet/log"></a>
+    <a href="https://goreportcard.com/report/github.com/gozelle/log"><img alt="Go Report Card" src="https://goreportcard.com/badge/github.com/gozelle/log"></a>
 </p>
 
 A minimal and colorful Go logging library. 🪵
@@ -41,13 +41,13 @@ readable logging with batteries included.
 Use `go get` to download the dependency.
 
 ```bash
-go get github.com/charmbracelet/log@latest
+go get github.com/gozelle/log@latest
 ```
 
 Then, `import` it in your Go files:
 
 ```go
-import "github.com/charmbracelet/log"
+import "github.com/gozelle/log"
 ```
 
 The Charm logger comes with a global package-wise logger with timestamps turned
@@ -334,7 +334,7 @@ stdlog.Printf("Failed to make bake request, %s", fmt.Errorf("temperature is too 
 
 ## License
 
-[MIT](https://github.com/charmbracelet/log/raw/master/LICENSE)
+[MIT](https://github.com/gozelle/log/raw/master/LICENSE)
 
 ---
 

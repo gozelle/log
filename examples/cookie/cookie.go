@@ -1,6 +1,6 @@
 package main
 
-import "github.com/charmbracelet/log"
+import "github.com/gozelle/log"
 
 func main() {
 	log.Debug("Cookie 🍪")
